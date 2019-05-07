@@ -3,6 +3,7 @@ import fr.unilim.iut.spaceinvaders.utils.*;
 
 public class SpaceInvaders {
 	
+	private static final int BORD_GAUCHE = 0;
 	private static final char MARQUE_FIN_LIGNE = '\n';
 	private static final char MARQUE_VIDE = '.';
 	private static final char MARQUE_VAISSEAU = 'V';
@@ -62,5 +63,9 @@ public class SpaceInvaders {
 
 	public void deplacerVaisseauVersLaDroite() {
         if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
+	}
+	
+	public void deplacerVaisseauVersLaGauche() {
+        if (vaisseau.abscisse() > BORD_GAUCHE) vaisseau.seDeplacerVersLaGauche();
 	}
 }
