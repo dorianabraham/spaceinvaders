@@ -10,3 +10,15 @@ Diagramme de classes
 Nuage de mots
 ---
 ![alt text](https://image.noelshack.com/fichiers/2019/19/2/1557241814-spaceinvaders.png)
+---
+
+# Mardi 14 mai
+Début de la seconde fonctionnalité suite à un problème de lancement d'Eclipse.
+---
+Diagramme de classes
+---
+![alt text](https://image.noelshack.com/fichiers/2019/20/2/1557833992-diagramme2.png)
+---
+Nuage de mots
+---
+![alt text](https://image.noelshack.com/fichiers/2019/20/2/1557834156-spaceinvaders2.png)
