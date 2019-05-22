@@ -4,6 +4,7 @@ public class Vaisseau {
 
 	Position origine;
 	Dimension dimension;
+	private int vitesse;
 	
 
 	public Vaisseau(int longueur, int hauteur) {
@@ -16,9 +17,14 @@ public class Vaisseau {
     }
     
     public Vaisseau(Dimension dimension, Position positionOrigine) {
-	    this.dimension = dimension;
-	    this.origine = positionOrigine;
+    	this(dimension, positionOrigine, 1);
     }
+    
+	public Vaisseau(Dimension dimension, Position positionOrigine, int vitesse) {
+		this.dimension = dimension;
+		this.origine = positionOrigine;
+		this.vitesse = vitesse;
+	}
 
     
     public boolean occupeLaPosition(int x, int y) {
@@ -47,12 +53,12 @@ public class Vaisseau {
 
 
     public void seDeplacerVersLaDroite() {
-    	this.origine.changerAbscisse(this.origine.abscisse()+1);
-    }
+		this.origine.changerAbscisse(this.origine.abscisse() + vitesse);
+	}
     
     public void seDeplacerVersLaGauche() {
-    	 this.origine.changerAbscisse(this.origine.abscisse()-1);
-  }
+		this.origine.changerAbscisse(this.origine.abscisse() - vitesse);
+	}
     
    	public int abscisseLaPlusAGauche() {
         return this.origine.abscisse();
@@ -61,8 +67,15 @@ public class Vaisseau {
     public void positionner(int x, int y) {
 		  this.origine.changerAbscisse(x);
 		  this.origine.changerOrdonnee(y);
-	    
-	    
     }
+    
+	public int hauteur() {
+		return this.dimension.hauteur();
+	}
+
+	public int longueur() {
+		return this.dimension.longueur();
+	}
+		
 
 }
