@@ -15,7 +15,6 @@ public abstract class Sprite {
 
 	public Sprite() {
 		super();
-		
 	}
 
 	public boolean occupeLaPosition(int x, int y) {
