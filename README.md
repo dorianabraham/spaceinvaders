@@ -37,3 +37,16 @@ Fin de la deuxième fonctionnalité.
 
 ![alt text](https://image.noelshack.com/fichiers/2019/21/3/1558517884-spaceinvaders4.png)
 
+---
+
+# Mercredi 29 mai
+Troisième et quatrième fonctionnalités terminées en plus du moteur graphique.
+
+## Diagramme de classes
+![alt text](https://image.noelshack.com/fichiers/2019/22/3/1559137408-diagrammeclasse.png)
+
+## Nuage de mots
+
+![alt text](https://image.noelshack.com/fichiers/2019/22/3/1559137404-diagramme4.png)
+
+---
