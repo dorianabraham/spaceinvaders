@@ -1,6 +1,8 @@
 package fr.unilim.iut.spaceinvaders.model;
 
+import fr.unilim.iut.spaceinvaders.utils.Dimension;
 import fr.unilim.iut.spaceinvaders.utils.MissileException;
+import fr.unilim.iut.spaceinvaders.utils.Position;
 
 public class Vaisseau extends Sprite {
 
