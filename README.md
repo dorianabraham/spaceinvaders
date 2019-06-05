@@ -50,3 +50,14 @@ Troisième et quatrième fonctionnalités terminées en plus du moteur graphique
 ![alt text](https://image.noelshack.com/fichiers/2019/22/3/1559137404-diagramme4.png)
 
 ---
+
+# Mercredi 05 mai
+Fin de la cinquième fonctionnalité : ajout d'un envahisseur.
+
+## Diagramme de classes
+![alt text](https://image.noelshack.com/fichiers/2019/23/3/1559756813-diagrammeclasse2.png)
+
+## Nuage de mots
+![alt text](https://image.noelshack.com/fichiers/2019/23/3/1559756805-spaceinvaders5.png)
+
+---
